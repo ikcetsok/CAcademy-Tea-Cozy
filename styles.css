@@ -58,6 +58,36 @@ nav h3 {
   flex-grow: 1;
   text-align: center;
 }
- .banner h2, .banner h4 {
+.banner h2,
+.banner h4 {
   margin: 15px 0;
- }
+}
+
+/* Tea of the Month Section */
+
+.teaMonth {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.tile {
+
+  margin: 0 15px;
+}
+.tile img {
+  height: 200px;
+  width: 300px;
+}
+
+.tile h4 {
+  margin: 10px auto;
+}
