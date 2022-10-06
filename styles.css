@@ -67,7 +67,7 @@ nav h3 {
 
 .teaMonth {
   width: 1000px;
-  margin: 50px auto;
+  margin: 60px auto;
   text-align: center;
 }
 
@@ -80,7 +80,6 @@ nav h3 {
 }
 
 .tile {
-
   margin: 0 15px;
 }
 .tile img {
@@ -91,3 +90,50 @@ nav h3 {
 .tile h4 {
   margin: 10px auto;
 }
+
+/* Locations Section */
+
+.locations {
+  display: flex;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url(./resources/img-locations-background.jpg);
+  background-position: top;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations h2 {
+  width: 100%;
+  text-align: center;
+
+}
+
+.tile2 h3, .tile2 h4 {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.tile2 h4 {
+  font-weight: 400;
+}
+
+.tile2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center ;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 0 20px;
+  opacity: 1 !important;
+}
+
+/* Footer Section */
+
