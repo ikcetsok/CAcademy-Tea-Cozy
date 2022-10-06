@@ -137,3 +137,13 @@ nav h3 {
 
 /* Footer Section */
 
+footer div {
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
+}
