@@ -2,9 +2,11 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
+  opacity: 0.9 !important;
   background-color: black;
 }
+
+/* Navigation bar */
 
 header {
   position: fixed;
@@ -14,6 +16,10 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  opacity: 0.9;
+  z-index: 10;
+  background-color: black;
 }
 
 nav {
@@ -28,11 +34,30 @@ nav h3 {
   text-decoration: underline;
   font-weight: 400;
   margin-right: 10px;
-  opacity: 0.9;
 }
 
 .logo {
-  opacity: 0.9;
   margin: 10px;
   height: 50px;
 }
+
+/* Hero Section */
+
+.hero {
+  height: 700px;
+  width: 1200px;
+  background-image: url(./resources/img-mission-background.jpg);
+  margin: 69px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  flex-grow: 1;
+  text-align: center;
+}
+ .banner h2, .banner h4 {
+  margin: 15px 0;
+ }
